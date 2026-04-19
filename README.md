@@ -44,6 +44,7 @@ python load_to_db.py
 python billing_logic.py
 
 Total Revenue
+RUN IN MYSQL
 SELECT SUM(payable) FROM Billing;
 
 -- Monthly Revenue
